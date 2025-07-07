@@ -1,0 +1,47 @@
+# Docker
+**/docker-compose.override.yml
+**/.dockerignore
+**/docker-data/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.DS_Store
+
+# React
+client/.env
+client/build/
+client/coverage/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# PostgreSQL
+**/postgres-data/
+**/pgdata/
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
